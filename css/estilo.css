@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
-
 body{
     height: 100%;
     background-color: #f7f7f7 !important;
-    font-family: Nunito, sans-serif !important;
+    font-family: 'Overpass', sans-serif !important;
 }
 .logo-flagship{
     position: absolute;
