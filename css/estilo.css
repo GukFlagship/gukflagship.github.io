@@ -189,7 +189,7 @@ body{
 #popup-2 {
     position: absolute;
     z-index: 4;
-    right: 120px;
+    right: 180px;
     top: 50px;
     height: 250px;
     width:250px;
@@ -286,7 +286,7 @@ body{
     align-items: center;
     justify-content: center;
 
-    height: calc(65vh - 3 * var(--scroll-gap));
+    height: 200px;
 
     border-radius: 1em;
     padding: 1.25em;
@@ -413,4 +413,42 @@ body{
   top:175px;
   left:50px;
   padding-right:2em;
+}
+#slide-7 table{
+  width:800px;
+}
+#slide-7 th{
+  font-size: 0.8em;
+}
+#slide-7 td{
+  font-size: 0.6em;
+}
+#s7-4-p1{
+  position:absolute;
+  top:125px;
+  left:50px;
+}
+#s7-4-p2{
+  position:absolute;
+  top:545px;
+  left:50px;
+  padding-right:2em;
+}
+#table-1{
+  margin-top:4.7em;
+}
+#table-2, #table-3{
+  margin-top:0.4em;
+}
+#s7-1{
+  background-image: url(../img/s7_1.png);
+}
+#s7-2{
+  background-image: url(../img/s7_2.png);
+}
+#s7-3{
+  background-image: url(../img/s7_3.png);
+}
+#s7-4{
+  background-image: url(../img/s7_4.png);
 }
