@@ -1,7 +1,7 @@
 body{
     height: 100%;
     background-color: #f7f7f7 !important;
-    font-family: 'Overpass', sans-serif !important;
+    font-family: "Overpass", sans-serif !important;
 }
 .logo-flagship{
     position: absolute;
@@ -119,12 +119,13 @@ body{
     text-align: left;
 }
 #slide-2 h2{
-    font-size: 1em;
-    font-weight: bolder;
+    font-size: 1.1em;
+    font-weight: 800;
     text-align: left;
-    padding-left:20px;
-    padding-right:80px;
-    padding-top:15px;
+    position:absolute;
+    top:25px;
+    left:30px;
+    padding-right: 2em;
 }
 #slide-2 p{
     padding-left:30px;
@@ -151,11 +152,11 @@ body{
                     /* ---- SLIDE 3 ---- */
 
 #slide-3 h2 {
-    font-size:1.2em;
-    font-weight: 800 !important;
-    position: relative;
-    top:30px;
-    margin: 0 auto !important;
+    font-size:1.1em;
+    font-weight: 800;
+    position: absolute;
+    top:25px;
+    left:30px;
 }
 #popup-1 {
     position:absolute;
@@ -258,33 +259,35 @@ body{
                 /* ---- SLIDE 4 ---- */
 
 #slide-4 h2{
-    font-size:1.15em;
-    font-weight: 800 !important;
-    position: relative;
-    top:30px;
-    margin: 0 auto !important;
+  font-size:1.1em;
+  font-weight: 800;
+  position: absolute;
+  padding-right: 2em;
+  text-align: left;
+  top:25px;
+  left:30px;
 }
 .parent{
     background-color: rgba(255,255,255,0);
-    
+
     --scroll-gap: 2em;
     position:absolute;
     bottom:0;
     height: 380px;
     overflow: auto;
     padding: var(--scroll-gap);
-    
+
     scroll-snap-type: y mandatory;
 }
 .child{
     scroll-snap-align: center;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     height: calc(65vh - 3 * var(--scroll-gap));
-    
+
     border-radius: 1em;
     padding: 1.25em;
     box-shadow: 0 0.9px 1.5px rgba(0,0,0,0.03),
@@ -304,11 +307,11 @@ body{
     color: white;
     position:relative !important;
 }
-    
+
 .child:not(:last-child){
     margin-bottom: var(--scroll-gap);
 }
-    
+
 .child:nth-child(1) {
     background-color: rgba(54,165,222,1);
 }
@@ -348,11 +351,11 @@ body{
 
 
 #slide-5 h2{
-    font-size:1.1em;
-    font-weight: 800 !important;
-    position: relative;
-    top:30px;
-    margin: 0 auto !important;
+  font-size:1.1em;
+  font-weight: 800;
+  position: absolute;
+  top:25px;
+  left:30px;
 }
 #slide5-text{
     font-size:0.6em;
@@ -381,14 +384,33 @@ body{
                 /* ---- SLIDE 6 ---- */
 
 #slide-6 h2{
-    font-size: 1.1em;
-    font-weight: 800 !important;
-    position: relative;
-    top: 30px;
-    margin: 0 auto !important;
+  font-size:1.1em;
+  font-weight: 800;
+  position: absolute;
+  top:25px;
+  left:30px;
 }
 #slide-6 p{
     font-size: 0.65em;
     width:50%;
     text-align: left;
+}
+
+                /* ---- SLIDE 7 ---- */
+#slide-7 h2{
+  font-size:1.1em;
+  font-weight: 800;
+  position: absolute;
+  top:25px;
+  left:30px;
+}
+#slide-7 p{
+  font-size: 0.6em;
+  text-align: left;
+}
+#s7-1-p, #s7-2-p, #s7-3-p {
+  position: absolute;
+  top:175px;
+  left:50px;
+  padding-right:2em;
 }
