@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 body{
     height: 100%;
     background-color: #f7f7f7 !important;
@@ -23,6 +25,13 @@ body{
     border-radius: 15px;
     background-color: rgb(33,167,112);
     top:-8px;
+}
+.title-line{
+  height:7px;
+  width:250px;
+  position: absolute;
+  left:0px;
+  z-index:300;
 }
 
 /* ANIMACIONES */
@@ -113,9 +122,15 @@ body{
 }
 
                     /* ---- SLIDE 2 ---- */
+#slide-2{
+  background-image: url(../img/bckgr_001.png);
+  background-size: 75%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
 
 #slide-2 p{
-    font-size: 0.55em;
+    font-size: 0.6em;
     text-align: left;
 }
 #slide-2 h2{
@@ -127,26 +142,17 @@ body{
     left:30px;
     padding-right: 2em;
 }
-#slide-2 p{
-    padding-left:30px;
-    padding-right:60px;
-    position: relative;
-    margin: 0 auto !important;
+#slide2-p{
+    position: absolute;
+    top:230px;
+    width: 490px;
+    left:45px;
+    padding-left:.5em;
+    border-left: 0.1em solid rgba(99,153,121,1);
 }
-.threepoints{
-    height:485px;
-}
-.threepoints #paragraph-1{
-    height: 161px;
-    background-color: rgb(33,167,112);
-}
-.threepoints #paragraph-2{
-    height:162px;
-    background-color:bisque;
-}
-.threepoints #paragraph-3{
-    height: 163px;
-    background-color:chartreuse;
+#slide-2 .title-line{
+  top:190px;
+  background-color: rgba(33,167,112,1);
 }
 
                     /* ---- SLIDE 3 ---- */
@@ -167,13 +173,6 @@ body{
     width: 280px;
     background-image: linear-gradient(-45deg, rgba(33,167,112,0), rgba(33,167,112,1));
     border-radius: 200px;
-}
-.enhanced #popup-1{
-    transition: transform 600ms;
-    transform: scale(0.3);
-}
-#popup-1 .revealed{
-    transform: scale(1);
 }
 #popup-n1{
     position:absolute;
@@ -255,6 +254,10 @@ body{
     font-size: 4em;
     font-weight: bolder;
 }
+#slide-3 .title-line{
+  top:85px;
+  background-color:rgba(54,165,222,1);
+}
 
                 /* ---- SLIDE 4 ---- */
 
@@ -267,6 +270,7 @@ body{
   top:25px;
   left:30px;
 }
+
 .parent{
     background-color: rgba(255,255,255,0);
 
@@ -299,13 +303,13 @@ body{
     font-weight: 400;
     z-index: 200;
     position: relative;
-    display: block;
 }
-.child h2{
+.child h3{
     font-size: 6em !important;
     z-index:100;
     color: white;
-    position:relative !important;
+    position:absolute !important;
+    opacity: 0.5;
 }
 
 .child:not(:last-child){
@@ -346,6 +350,11 @@ body{
     background-color: rgba(99,153,121,1);
 }
 
+#slide-4 .title-line{
+  top:140px;
+  background-color:rgba(99,153,121,1);
+}
+
 
                 /* ---- SLIDE 5 ---- */
 
@@ -357,31 +366,49 @@ body{
   top:25px;
   left:30px;
 }
-#slide5-text{
+#slide-5 p{
     font-size:0.6em;
-    margin-top:2em;
-    margin-bottom:3em;
+    position: absolute;
+    top:110px;
+    left:50px;
 }
 
-#slide-5 div {
+#slide-5 .interh3 {
     position: relative;
     height: 148px;
     width:content;
     padding-left: 1.2em;
     padding-right: 1.2em;
-    background-color: aqua;
+    /*background-color: aqua;*/
     margin-top:0.45em;
 }
+.list-element{
+  margin-top:4.8em;
+  padding-left: 2em;
+  padding-right:2em;
+}
 #slide-5 h3{
-    font-size: 0.7em;
+    font-size: 0.8em;
     align-items: center;
     justify-content: center;
     display:flex;
-    padding-top:1em;
+    margin-top:.5em;
+    padding:0.5em;
+    border:3px solid red;
+    border-radius:20px;
+}
+#slide-5 .title-line{
+  top:85px;
+  background-color:rgba(33,167,112,1);
 }
 
 
                 /* ---- SLIDE 6 ---- */
+
+#slide-6{
+  background-image: url(../img/bckgr_002.png);
+  background-size: contain;
+}
 
 #slide-6 h2{
   font-size:1.1em;
@@ -390,10 +417,22 @@ body{
   top:25px;
   left:30px;
 }
+#slide-6 .title-line{
+  top:85px;
+  background-color:rgba(54,165,222,1);
+}
+
 #slide-6 p{
-    font-size: 0.65em;
-    width:50%;
+    font-size: 0.6em;
     text-align: left;
+}
+#slide6-p{
+    position: absolute;
+    top:180px;
+    width: 490px;
+    left:45px;
+    padding-left:.5em;
+    border-left: 0.1em solid rgba(99,153,121,1);
 }
 
                 /* ---- SLIDE 7 ---- */
@@ -404,6 +443,10 @@ body{
   top:25px;
   left:30px;
 }
+#slide-7 .title-line{
+  top:85px;
+  background-color:rgba(99,153,121,1);
+}
 #slide-7 p{
   font-size: 0.6em;
   text-align: left;
@@ -412,6 +455,7 @@ body{
   position: absolute;
   top:175px;
   left:50px;
+  z-index: 200;
   padding-right:2em;
 }
 #slide-7 table{
@@ -422,6 +466,8 @@ body{
 }
 #slide-7 td{
   font-size: 0.6em;
+  background-color: rgba(255,255,255,0.6);
+  border-bottom: 3px solid #fff;
 }
 #s7-4-p1{
   position:absolute;
@@ -451,4 +497,68 @@ body{
 }
 #s7-4{
   background-image: url(../img/s7_4.png);
+}
+.map-norway{
+  position: absolute;
+  height: 500px;
+  width:500px;
+  z-index: 100;
+  border-radius: 600px;
+  background-image: url(../img/norway_map.png);
+  background-size: 145%;
+  top:180px;
+  left:325px;
+}
+#map-point{
+  position:absolute;
+  height:150px;
+  width:150px;
+  z-index:150;
+  background-color:rgba(33,167,112,0.4);
+  border-radius:200px;
+  top:320px;
+  left:490px;
+}
+#ltlturbine-1 {
+  position: absolute;
+  width:30px;
+  height: 55px;
+  background-image:url(../img/little_turbine.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index:160;
+  top:395px;
+  left:530px;
+}
+#ltlturbine-2 {
+  position: relative;
+  width:30px;
+  height: 55px;
+  background-image:url(../img/little_turbine.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index:160;
+  top:335px;
+  left:545px;
+}
+#ltlturbine-3 {
+  position: relative;
+  width:30px;
+  height: 55px;
+  background-image:url(../img/little_turbine.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index:160;
+  top:305px;
+  left:510px;
+}
+
+                  /* ---- SLIDE 8 ---- */
+
+#slide-8 h2{
+  font-size: 1.1em;
+  font-weight: 800;
+  padding-left:2em;
+  padding-right: 2em;
+  margin-top:25px;
 }
