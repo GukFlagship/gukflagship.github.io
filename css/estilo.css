@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@font-face {
+  src:url(../img/typo/Overpass.ttf) format('truetype');
+}
 
 body{
     height: 100%;
@@ -557,8 +559,29 @@ body{
 
 #slide-8 h2{
   font-size: 1.1em;
-  font-weight: 800;
+  font-weight: 1000;
   padding-left:2em;
   padding-right: 2em;
+  color:white;
   margin-top:25px;
+  box-shadow: 5px;
+}
+#slide-8{
+  background-image:url(../img/blue_sky.jpg);
+  background-size: cover;
+}
+.web, .twitter, .linkedin, .video{
+  width:150px;
+  position: absolute;
+  color:white;
+  height: auto;
+  font-size: 0.4em;
+}
+.web{
+  top:175px;
+  left:50px;
+}
+.twitter{
+  top:175px;
+  right:50px;
 }
