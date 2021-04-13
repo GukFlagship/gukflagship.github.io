@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Overpass';
+  font-family: 'Overpass' !important;
   src:url(https://github.com/GukFlagship/gukflagship.github.io/blob/main/img/typo/Overpass.ttf) format('truetype');
 }
 
@@ -109,7 +109,7 @@ body{
     background-image: url(../img/back_slide_1.png);
 }
 #title-slide1{
-    font-size: 1.3em;
+    font-size: 50px;
     font-weight: 800;
     text-align: center;
     width:800px;
@@ -133,11 +133,11 @@ body{
 }
 
 #slide-2 p{
-    font-size: 0.6em;
+    font-size: 25px;
     text-align: left;
 }
 #slide-2 h2{
-    font-size: 1.1em;
+    font-size: 45px;
     font-weight: 800;
     text-align: left;
     position:absolute;
@@ -161,7 +161,7 @@ body{
                     /* ---- SLIDE 3 ---- */
 
 #slide-3 h2 {
-    font-size:1.1em;
+    font-size:45px;
     font-weight: 800;
     position: absolute;
     top:25px;
@@ -179,12 +179,12 @@ body{
 }
 #popup-n1{
     position:absolute;
-    left:100px;
-    top: 0px;
+    left:95px;
+    top: 10px;
 }
 #popup-t1{
     position: absolute;
-    top: 180px;
+    top: 170px;
     left: 60px;
 }
 
@@ -201,8 +201,8 @@ body{
 }
 #popup-n2{
     position:absolute;
-    left: 76px;
-    top:0px;
+    left: 72px;
+    top:10px;
 }
 #popup-t2{
     position:absolute;
@@ -213,7 +213,7 @@ body{
 #popup-3{
     position:absolute;
     z-index: 3;
-    left:50px;
+    left:30px;
     top: 280px;
     height:400px;
     width: 400px;
@@ -222,14 +222,14 @@ body{
 }
 #popup-n3{
     position: absolute;
-    top:60px;
+    top:80px;
     left:120px;
     font-weight: bolder !important;
 }
 #popup-t3{
     position: absolute;
     top:240px;
-    right:115px;
+    right:120px;
 }
 
 #popup-4{
@@ -244,8 +244,8 @@ body{
 }
 #popup-n4{
     position:absolute;
-    top:140px;
-    left:75px;
+    top:150px;
+    left:35px;
 }
 #popup-t4{
     position: absolute;
@@ -254,7 +254,7 @@ body{
 }
 
 .pop-up-number{
-    font-size: 4em;
+    font-size: 165px;
     font-weight: bolder;
 }
 #slide-3 .title-line{
@@ -265,7 +265,7 @@ body{
                 /* ---- SLIDE 4 ---- */
 
 #slide-4 h2{
-  font-size:1.1em;
+  font-size:45px;
   font-weight: 800;
   position: absolute;
   padding-right: 2em;
@@ -363,14 +363,14 @@ body{
 
 
 #slide-5 h2{
-  font-size:1.1em;
+  font-size:45px;
   font-weight: 800;
   position: absolute;
   top:25px;
   left:30px;
 }
 #slide-5 p{
-    font-size:0.6em;
+    font-size:25px;
     position: absolute;
     top:110px;
     left:50px;
@@ -391,14 +391,20 @@ body{
   padding-right:2em;
 }
 #slide-5 h3{
-    font-size: 0.8em;
+    font-size: 32px;
     align-items: center;
     justify-content: center;
     display:flex;
     margin-top:.5em;
     padding:0.5em;
-    border:3px solid red;
+    border:3px solid rgba(99,153,121,1);
+    background-color:rgba(33,167,112,0.1);
     border-radius:20px;
+}
+#slide-5 h3:hover{
+  transition: 0.6s;
+  background-color:rgba(99,153,121,1);
+  color:white;
 }
 #slide-5 .title-line{
   top:85px;
@@ -414,7 +420,7 @@ body{
 }
 
 #slide-6 h2{
-  font-size:1.1em;
+  font-size:45px;
   font-weight: 800;
   position: absolute;
   top:25px;
@@ -426,7 +432,7 @@ body{
 }
 
 #slide-6 p{
-    font-size: 0.6em;
+    font-size: 25px;
     text-align: left;
 }
 #slide6-p{
@@ -440,7 +446,7 @@ body{
 
                 /* ---- SLIDE 7 ---- */
 #slide-7 h2{
-  font-size:1.1em;
+  font-size:45px;
   font-weight: 800;
   position: absolute;
   top:25px;
@@ -451,7 +457,7 @@ body{
   background-color:rgba(99,153,121,1);
 }
 #slide-7 p{
-  font-size: 0.6em;
+  font-size: 25px;
   text-align: left;
 }
 #s7-1-p, #s7-2-p, #s7-3-p {
@@ -465,10 +471,10 @@ body{
   width:800px;
 }
 #slide-7 th{
-  font-size: 0.8em;
+  font-size: 30px;
 }
 #slide-7 td{
-  font-size: 0.6em;
+  font-size: 25px;
   background-color: rgba(255,255,255,0.6);
   border-bottom: 3px solid #fff;
 }
@@ -559,7 +565,7 @@ body{
                   /* ---- SLIDE 8 ---- */
 
 #slide-8 h2{
-  font-size: 1.1em;
+  font-size: 45px;
   font-weight: 1000;
   padding-left:2em;
   padding-right: 2em;
