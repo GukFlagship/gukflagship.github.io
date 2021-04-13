@@ -1,12 +1,18 @@
 @font-face {
-  font-family: 'Overpass' !important;
+  font-family: 'Overpass';
   src:url(https://github.com/GukFlagship/gukflagship.github.io/blob/main/img/typo/Overpass.ttf) format('truetype');
 }
 
 body{
     height: 100%;
     background-color: #f7f7f7 !important;
-    font-family: "Overpass", sans-serif !important;
+    font-family: 'Overpass', sans-serif !important;
+}
+h2{
+  font-family: 'Overpass', sans-serif !important;
+}
+h3{
+  font-family: 'Overpass', sans-serif !important;
 }
 .logo-flagship{
     position: absolute;
