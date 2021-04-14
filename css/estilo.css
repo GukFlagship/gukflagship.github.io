@@ -397,8 +397,9 @@ h3{
   padding-right:2em;
 }
 #slide-5 h3{
-    font-size: 32px;
+    font-size: 33px;
     align-items: center;
+    text-transform: inherit;
     justify-content: center;
     display:flex;
     margin-top:.5em;
