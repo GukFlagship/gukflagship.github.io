@@ -399,7 +399,7 @@ h3{
 #slide-5 h3{
     font-size: 33px;
     align-items: center;
-    text-transform: inherit;
+    text-transform: inherit !important;
     justify-content: center;
     display:flex;
     margin-top:.5em;
