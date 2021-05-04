@@ -127,6 +127,7 @@ h3{
     font-size: 50px;
     font-weight: 800;
     text-align: left;
+    color:rgb(77,77,77);
     width:500px;
     position: absolute;
     left: 350px;
@@ -176,6 +177,7 @@ h3{
   bottom:50px;
   right:50px;
   background-color:rgba(255,255,255,0.7);
+  color:rgb(77,77,77);
   padding:20px;
 }
 
@@ -215,11 +217,13 @@ h3{
 }
 #popup-n1{
     position:absolute;
+    color:rgb(77,77,77);
     left:95px;
     top: 10px;
 }
 #popup-t1{
     position: absolute;
+    color:rgb(77,77,77);
     top: 170px;
     left: 60px;
 }
@@ -237,11 +241,13 @@ h3{
 }
 #popup-n2{
     position:absolute;
+    color:rgb(77,77,77);
     left: 72px;
     top:10px;
 }
 #popup-t2{
     position:absolute;
+    color:rgb(77,77,77);
     top:170px;
     left:80px;
 }
@@ -258,12 +264,14 @@ h3{
 }
 #popup-n3{
     position: absolute;
+    color:rgb(77,77,77);
     top:80px;
     left:120px;
     font-weight: bolder !important;
 }
 #popup-t3{
     position: absolute;
+    color:rgb(77,77,77);
     top:240px;
     right:120px;
 }
@@ -280,6 +288,7 @@ h3{
 }
 #popup-n4{
     position:absolute;
+    color:rgb(77,77,77);
     top:100px;
     left:100px;
 }
@@ -288,6 +297,7 @@ h3{
 }
 #popup-t4{
     position: absolute;
+    color:rgb(77,77,77);
     top:270px;
     right:155px;
 }
@@ -312,6 +322,7 @@ h3{
 }
 #slide-4 p{
   font-size: 20px;
+  color:rgb(77,77,77);
 }
 .contenedor-slide4{
   position: fixed;
@@ -383,7 +394,7 @@ h3{
   z-index: 1000;
   align-content: center;
   position: relative;
-  color:rgba(54,165,222,0.3);
+  color:rgba(54,165,222,0.3) !important;
 }
 
 .cerrarmodal {
@@ -553,6 +564,7 @@ h3{
 }
 #slide-5 p{
     font-size:20px;
+    color:rgb(77,77,77);
 }
 #slide-5-1{
   position: relative;
@@ -701,6 +713,15 @@ h3{
   left:48px;
   opacity: 0.2;
 }
+#principle-1{
+  border-bottom:7px solid rgb(99,153,121);
+}
+#principle-2{
+  border-bottom:7px solid rgb(54,165,222);
+}
+#principle-3{
+  border-bottom:7px solid rgb(33,167,112);
+}
 
 
                 /* ---- SLIDE 6 ---- */
@@ -713,12 +734,9 @@ h3{
   margin:0 auto;
   top:25px;
 }
-#slide-6 .title-line{
-  top:85px;
-  background-color:rgba(99,153,121,1);
-}
 #slide-6 p{
   font-size: 20px;
+  color:rgb(77,77,77);
   text-align: left;
 }
 
@@ -880,12 +898,14 @@ table{
 
 table th{
   font-size: 20px;
+  color:rgb(77,77,77);
   background-color:rgba(54,165,222,0.5);
   border-radius: 10px 10px 0 0;
   text-align: center !important;
 }
 table td{
   font-size:20px;
+  color:rgb(77,77,77);
   text-align: center !important;
 }
 #table-1{
