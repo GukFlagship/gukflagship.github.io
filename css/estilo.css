@@ -175,8 +175,8 @@ h3{
   position: fixed;
   border-radius: 100px;
   bottom:50px;
-  right:50px;
-  background-color:rgba(255,255,255,0.7);
+  left:25px;
+  background-color:rgba(255,255,255,0);
   color:rgb(77,77,77);
   padding:20px;
 }
@@ -186,7 +186,8 @@ h3{
 #slide-3 h2 {
     font-size:45px;
     font-weight: 800;
-    color:rgb(33,167,112);
+    /*color:rgb(33,167,112);*/
+    color:white;
     text-transform: inherit;
     position: fixed;
     top:250px;
@@ -195,20 +196,21 @@ h3{
     z-index: 999;
 }
 #key-fig{
-  width:200px;
-  height: 200px;
-  border-radius: 150px;
-  background-color: #f7f7f7 0.5;
+  width:300px;
+  height: 300px;
+  background-image: url(../img/flg_logo_color.png);
+  background-size: cover;
   position: relative;
-  margin: 0 auto;
-  top:205px;
+  opacity: 0.5;
+  left:310px;
+  top:150px;
   z-index: 998;
-  border: 3px solid rgb(33,167,112);
+  /*border: 3px solid rgb(33,167,112);*/
 }
 #popup-1 {
     position:absolute;
     z-index: 5;
-    left: 120px;
+    left: 150px;
     top: 25px;
     height: 280px;
     width: 280px;
@@ -255,8 +257,8 @@ h3{
 #popup-3{
     position:absolute;
     z-index: 3;
-    left:30px;
-    top: 300px;
+    left:80px;
+    top: 280px;
     height:400px;
     width: 400px;
     background-image: linear-gradient(135deg, rgba(54,165,222,0), rgba(54,165,222,1));
@@ -394,23 +396,8 @@ h3{
   z-index: 1000;
   align-content: center;
   position: relative;
-  color:rgba(54,165,222,0.3) !important;
+  color:rgba(54,165,222,0.05) !important;
 }
-
-.cerrarmodal {
-  color: #aaa !important;
-  line-height: 50px;
-  font-size: 80%;
-  position: fixed;
-  right: 0;
-  text-align: center;
-  top: 0 !important;
-  width: 70px;
-  text-decoration: none;
-}
-  .cerrarmodal:hover {
-    color: black !important;
-  }
 
 
 /* Demo Styles */
@@ -560,7 +547,7 @@ h3{
   text-transform: inherit;
   position: relative;
   color:rgba(33,167,112,1);
-  top:65px;
+  top:45px;
 }
 #slide-5 p{
     font-size:20px;
@@ -569,7 +556,7 @@ h3{
 #slide-5-1{
   position: relative;
   text-align: center;
-  top:90px;
+  top:70px;
 }
 #slide-5-2{
   position: fixed;
@@ -588,16 +575,32 @@ h3{
   position: fixed;
 }
 
+.cerrarmodal {
+  color: #aaa !important;
+  line-height: 50px;
+  font-size: 80%;
+  position: fixed;
+  top:-20px;
+  text-align: center;
+  width: 70px;
+  text-decoration: none;
+  background-color: inherit;
+  padding:10px;
+  border-radius: 20px;
+}
+  .cerrarmodal:hover {
+    color: black !important;
+  }
 .ventana-principles {
   position: fixed;
   margin:0 auto !important;
   background-color: blue;
   font-size: 20px;
-  height:270px;
-  width:850px;
+  height:170px;
+  width:900px;
   top:270px;
-  left:50px;
-  top:200px;
+  left:25px;
+  top:180px;
   border-radius: 200px;
   z-index: 999;
   visibility: hidden !important;
@@ -661,7 +664,8 @@ h3{
   }
 }
 .pr-title{
-  font-size: 35px !important;
+  font-size: 30px !important;
+  font-weight: 800;
 }
 #pr-1{
   background-color:rgb(99,153,121);
@@ -691,16 +695,17 @@ h3{
   z-index: 1;
   bottom:30px;
   left:197px;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 #bola-2{
-  width:600px;
-  height:600px;
-  border-radius:600px;
+  width:740px;
+  height:740px;
+  background-image: url(../img/flg_logo_color.png);
+  background-size: cover;
   position:fixed;
   z-index:1;
-  top:80px;
-  right:48px;
+  top:-20px;
+  right:88px;
   opacity: 0.2;
 }
 #bola-3{
@@ -711,7 +716,7 @@ h3{
   z-index:1;
   top:50px;
   left:48px;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 #principle-1{
   border-bottom:7px solid rgb(99,153,121);
@@ -753,24 +758,26 @@ h3{
 }
 #map-point{
   position:absolute;
-  height:75px;
-  width:75px;
+  height:80px;
+  width:80px;
   z-index:150;
-  background-color:rgba(33,167,112,0.4);
-  border-radius:200px;
+  /*background-color:rgba(33,167,112,0.4);*/
+  background-image:url(../img/flg_logo_color.png);
+  background-size: cover;
+  opacity: 0.5;
   top:10px;
-  left:580px;
+  left:575px;
 }
 #ltlturbine-1 {
   position: absolute;
-  width:30px;
-  height: 55px;
+  width:25px;
+  height: 50px;
   background-image:url(../img/little_turbine.png);
   background-size: contain;
   background-repeat: no-repeat;
   z-index:160;
-  top:20px;
-  left:600px;
+  top:23px;
+  left:607px;
 }
 #ventana-demo{
   position: fixed;
@@ -955,6 +962,10 @@ table td{
 #consort{
   margin-top:150px;
 }
+#edf{
+  width:135px !important;
+  height:60px !important;
+}
 
                   /* ---- SLIDE 8 ---- */
 
@@ -1017,24 +1028,24 @@ table td{
   background-image:linear-gradient(120deg, rgba(99,153,121,0), rgba(54,165,222,1));
 }
 .euro-project{
-  width:200px;
-  height:27px;
+  width:300px;
+  height:40px;
   display: block;
   position: fixed;
-  top:10px;
+  bottom:10px;
   right:5px;
 }
 .euro-project img{
   position: absolute;
-  height: 90px;
+  height: 150px;
   width: auto;
   left:0px;
   top:-20px;
 }
 .euro-project p{
   position: absolute;
-  font-size: 8px;
-  padding-left:50px;
+  font-size: 11px;
+  padding-left:65px;
   text-align: left;
   top:-22px;
 }
